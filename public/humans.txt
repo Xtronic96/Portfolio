@@ -1,0 +1,55 @@
+The humans.txt file explains the team, technology, and graphic assets behind this site.
+
+
+DEVELOPER
+
+    Pewrie Bontal
+
+
+DESIGNER & DEVELOPER
+
+    Cody Bennett
+
+    Design tools
+        Figma
+        InVision
+
+
+TECHNOLOGY
+
+    React
+    Storybook
+    Three
+    Popmotion
+
+
+CREDITS
+
+    FONTS
+
+        Gotham
+        SFMono
+        Hiragino Kaku Gothic
+        Respira Black
+
+
+    GIF FROM 404
+
+        https://twitter.com/ruinergame
+
+
+SITE
+
+    Last update: 2021/07/22
+
+
+Software
+
+    Atom
+        https://atom.io
+
+    Visual Studio Code
+        https://code.visualstudio.com/
+
+    Taag
+        https://patorjk.com/software/taag/
