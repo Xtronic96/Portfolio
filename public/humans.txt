@@ -10,9 +10,10 @@ DESIGNER & DEVELOPER
 
     Cody Bennett
 
-    Design tools
-        Figma
-        InVision
+        Design tools
+
+            Figma
+            InVision
 
 
 TECHNOLOGY
@@ -32,7 +33,6 @@ CREDITS
         Hiragino Kaku Gothic
         Respira Black
 
-
     GIF FROM 404
 
         https://twitter.com/ruinergame
@@ -46,10 +46,13 @@ SITE
 Software
 
     Atom
+
         https://atom.io
 
     Visual Studio Code
-        https://code.visualstudio.com/
+
+        https://code.visualstudio.com
 
     Taag
-        https://patorjk.com/software/taag/
+
+        https://patorjk.com/software/taag

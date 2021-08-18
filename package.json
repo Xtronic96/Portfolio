@@ -19,7 +19,7 @@
     "draw-art": "chmod +x _art.sh && ./_art.sh"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.8",
+    "@babel/core": "^7.15.0",
     "@craco/craco": "^6.2.0",
     "@storybook/addon-a11y": "^6.3.6",
     "@storybook/addon-actions": "^6.3.6",
@@ -28,7 +28,6 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "babel-loader": "8.1.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "mdx-loader": "^3.0.2",
@@ -49,7 +48,7 @@
     "react-helmet": "^6.1.0",
     "react-router-dom": "5.2.0",
     "react-transition-group": "^4.4.2",
-    "three": "^0.131.1"
+    "three": "^0.131.3"
   },
   "reactSnap": {
     "puppeteerArgs": [
