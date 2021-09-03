@@ -42,7 +42,7 @@ const ProfileText = ({ status, titleId }) => (
       size="l"
     >
       In my spare time, I like to listen to 20s songs, watch Sci-fi movies, vibe with
-      Trance music, play video games, and make memes. Btw, feel free to drop me a line.
+      Trance, play video games, and make memes. Btw, feel free to drop me a line.
     </Text>
   </Fragment>
 );
