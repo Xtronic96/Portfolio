@@ -21,7 +21,7 @@
     "build:vercel": "npm run build && npm run format:vercel && npm run draw-art"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.0",
+    "@babel/core": "^7.15.4",
     "@craco/craco": "^6.2.0",
     "@storybook/addon-a11y": "^6.3.7",
     "@storybook/addon-actions": "^6.3.7",
@@ -50,7 +50,7 @@
     "react-helmet": "^6.1.0",
     "react-router-dom": "5.3.0",
     "react-transition-group": "^4.4.2",
-    "three": "^0.132.2"
+    "three": "^0.131.3"
   },
   "reactSnap": {
     "puppeteerArgs": [
