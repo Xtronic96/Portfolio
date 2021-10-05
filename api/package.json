@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "@pewriebontal/portfolio-api",
   "description": "Serverless functions for pewriebontal.ml",
   "private": true,
   "devDependencies": {

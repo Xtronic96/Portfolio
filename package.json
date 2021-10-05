@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "@pewriebontal/portfolio",
   "version": "0.1.0",
   "homepage": "https://pewriebontal.ml",
   "description": "Portfolio site for Pewrie Bontal",
@@ -15,10 +15,7 @@
     "postbuild": "react-snap",
     "test": "craco test",
     "storybook": "start-storybook -p 9009 -s public",
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "draw-art": "chmod +x _art.sh && ./_art.sh",
-    "format:vercel": "cd build && npx prettier --write .",
-    "build:vercel": "npm run build && npm run format:vercel && npm run draw-art"
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "devDependencies": {
     "@babel/core": "^7.15.4",
