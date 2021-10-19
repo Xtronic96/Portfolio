@@ -41,8 +41,7 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      In my spare time, I like to listen to 20s songs, watch Sci-fi movies, vibe with
-      Trance, play video games, and make memes. Btw, feel free to drop me a line.
+      In my spare time, I like to watch Sci-fi movies, play video games, and make memes. Btw, feel free to drop me a line.
     </Text>
   </Fragment>
 );
