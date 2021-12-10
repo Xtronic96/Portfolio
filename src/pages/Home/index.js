@@ -17,7 +17,7 @@ import macbookPro from 'assets/macbook-pro.glb';
 import portrait from 'assets/portrait.glb';
 import './index.css';
 
-const disciplines = ['Student', 'Creator', 'Boy', 'Human'];
+const disciplines = ['Student', 'Boy', 'Human'];
 
 const Home = () => {
   const { status } = useRouteTransition();

@@ -1,0 +1,10 @@
+HUMANS.TXT:
+    https://pewriebontal.ml/humans.txt
+
+
+CRYPTO ADDRESS:
+    https://pewriebontal.ml/.well-known/crypto-wallet.txt
+
+
+CONNECT WITH ME:
+    https://pewriebontal.ml/.well-known/address.txt

@@ -33,7 +33,7 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      My name is Pewrie Bontal and I am a video game developer studying International
+      Hi, I'm Pewrie Bontal, junior video game developer studying International
       Relations(with History minor) at the University of East Rangoon in Beautiful Federal
       Republic of Burma.
     </Text>
@@ -41,7 +41,7 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      In my spare time, I like to watch Sci-fi movies, play video games, and make memes.
+      I love Sci-fi movies and Zimmer's Soundtracks.
       Btw, feel free to drop me a line.
     </Text>
   </Fragment>

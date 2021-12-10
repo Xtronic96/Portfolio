@@ -1,19 +1,9 @@
 The humans.txt file explains the team, technology, and graphic assets behind this site.
 
 
-DEVELOPER
+MAINTAIN BY
 
     Pewrie Bontal
-
-
-DESIGNER & DEVELOPER
-
-    Cody Bennett
-
-        Design tools
-
-            Figma
-            InVision
 
 
 TECHNOLOGY
@@ -26,6 +16,13 @@ TECHNOLOGY
 
 CREDITS
 
+    ORIGINALLY DEVELOPED BY
+
+        Hamish Williams
+
+            LICENSE:
+                https://pewriebontal.ml/LICENSE
+
     FONTS
 
         Gotham
@@ -33,26 +30,30 @@ CREDITS
         Hiragino Kaku Gothic
         Respira Black
 
-    GIF FROM 404
+    GIF FROM 404 page
 
         https://twitter.com/ruinergame
 
 
 SITE
 
-    Last update: 2021/09/03
+    Last update: 2021/12/10
 
 
-Software
-
-    Atom
-
-        https://atom.io
+SOFTWARE
 
     Visual Studio Code
 
         https://code.visualstudio.com
 
+
+MISC
+
     Taag
 
         https://patorjk.com/software/taag
+
+
+BACK TO ME:
+    
+    https://pewriebontal.ml/.well-known/me.txt

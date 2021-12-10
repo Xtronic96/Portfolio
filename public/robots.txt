@@ -3,4 +3,7 @@
 # Allow crawling of all content
 User-agent: *
 Disallow: /humans.txt
+Disallow: /.well-known/me.txt
+Disallow: /.well-known/crypto-wallet.txt
+Disallow: /.well-known/address.txt
 Sitemap: https://pewriebontal.ml/sitemap.xml
