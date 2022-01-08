@@ -1,10 +1,10 @@
 {
-  "name": "@pewriebontal/portfolio",
+  "name": "@xtronic96/portfolio",
   "version": "0.1.0",
-  "homepage": "https://pewriebontal.ml",
-  "description": "Portfolio site for Pewrie Bontal",
-  "repository": "https://github.com/pewriebontal/portfolio.git",
-  "author": "Pewrie Bontal <hello@pewriebontal.ml>",
+  "homepage": "https://kyawzayarsoe.ml",
+  "description": "Portfolio site for Kyaw Zayar Soe",
+  "repository": "https://github.com/xtronic96/portfolio.git",
+  "author": "Kyaw Zayar Soe",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -71,5 +71,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://pewriebontal.ml"
+  "proxy": "https://kyawzayarsoe.ml"
 }

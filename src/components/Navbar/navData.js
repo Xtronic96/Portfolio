@@ -20,7 +20,7 @@ export const navLinks = [
 ];
 
 export const socialLinks = [
-  {
+  /*{
     label: 'Twitter',
     url: 'https://twitter.com/pewriebontal',
     icon: 'twitter',
@@ -29,15 +29,15 @@ export const socialLinks = [
     label: 'Instagram',
     url: 'https://instagram.com/pewriebontal',
     icon: 'instagram',
-  },
-  /*{
-    label: 'Github',
-    url: 'https://github.com/pewriebontal',
-    icon: 'github',
   },*/
   {
+    label: 'Github',
+    url: 'https://github.com/xtronic96',
+    icon: 'github',
+  },
+  /*{
     label: 'Linkedin',
     url: 'https://linkedin.com/in/pewriebontal',
     icon: 'linkedin',
-  },
+  },*/
 ];

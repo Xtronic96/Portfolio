@@ -30,7 +30,7 @@ CREDITS
         Hamish Williams
 
             LICENSE:
-                https://pewriebontal.ml/LICENSE
+                https://kyawzayarsoe.ml/LICENSE
 
     FONTS
 
@@ -65,4 +65,4 @@ MISC
 
 SOME LINKS:
     
-    https://pewriebontal.ml/.well-known/me.txt
+    https://kyawzayarsoe.ml/.well-known/me.txt

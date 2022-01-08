@@ -26,7 +26,7 @@ const Page404 = lazy(() => import('pages/404'));
 export const AppContext = createContext();
 export const TransitionContext = createContext();
 
-const repoPrompt = `\n\n██████╗ ███████╗██╗    ██╗██████╗ ██╗███████╗██████╗  ██████╗ ███╗   ██╗████████╗ █████╗ ██╗     \n██╔══██╗██╔════╝██║    ██║██╔══██╗██║██╔════╝██╔══██╗██╔═══██╗████╗  ██║╚══██╔══╝██╔══██╗██║     \n██████╔╝█████╗  ██║ █╗ ██║██████╔╝██║█████╗  ██████╔╝██║   ██║██╔██╗ ██║   ██║   ███████║██║     \n██╔═══╝ ██╔══╝  ██║███╗██║██╔══██╗██║██╔══╝  ██╔══██╗██║   ██║██║╚██╗██║   ██║   ██╔══██║██║     \n██║     ███████╗╚███╔███╔╝██║  ██║██║███████╗██████╔╝╚██████╔╝██║ ╚████║   ██║   ██║  ██║███████╗\n╚═╝     ╚══════╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝╚══════╝╚═════╝  ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚══════╝\n                                                                                                 \n\u00A9 2020-${new Date().getFullYear()} Pewrie Bontal. #SaveBurma\n\nthe people, technology, and graphic assets behind this site can be found in https://pewriebontal.ml/humans.txt\n\nA fork of https://github.com/hamishMW/portfolio`;
+const repoPrompt = `© 2020-${new Date().getFullYear()} Kyaw Zayar Soe\n A fork of https://github.com/hamishMW/portfolio`;
 
 const App = () => {
   const [storedTheme] = useLocalStorage('theme', 'dark');
@@ -62,7 +62,7 @@ const AppRoutes = () => {
   return (
     <Fragment>
       <Helmet>
-        <link rel="canonical" href={`https://pewriebontal.ml${pathname}`} />
+        <link rel="canonical" href={`https://kyawzayarsoe.ml${pathname}`} />
       </Helmet>
       <VisuallyHidden showOnFocus as="a" className="skip-to-main" href="#MainContent">
         Skip to main content

@@ -33,16 +33,16 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      Hi, I'm Pewrie Bontal, junior video game developer studying International
-      Relations(with History minor) at the University of East Rangoon in Beautiful Federal
-      Republic of Burma.
+      Hello! My name is Kyaw Zayar Soe and i am a self-claimed amateur interior arch-viz designer.
+      I have also created some funny animation clips using blender.
+      I also made some casual games with unity and none of them were finished.
     </Text>
     <Text
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      I love Sci-fi movies and Zimmer's Soundtracks.
-      Btw, feel free to drop me a line.
+      I love games and I have played variety of games since my childhood.
+      I want to learn more about game development industry and want to master the art of game creation and film animation.
     </Text>
   </Fragment>
 );
@@ -97,7 +97,7 @@ const Profile = ({ id, visible, sectionRef }) => {
                   placeholder={ProfileImgPlaceholder}
                   srcSet={`${ProfileImg} 480w, ${ProfileImgLarge} 960w`}
                   sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
-                  alt="Pewrie Bontal's selfie"
+                  alt="Kyaw Zayar Soe's selfie"
                 />
                 <KatakanaProfile
                   className={classNames('profile__svg', `profile__svg--${status}`)}

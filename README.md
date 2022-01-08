@@ -1,5 +1,5 @@
 # Portfolio
 
-[![Site preview](/public/social-image.png)](https://pewriebontal.ml)
+[![Site preview](/public/social-image.png)](https://kyawzayarsoe.ml)
 
-My personal portfolio. View the [live site](https://pewriebontal.ml)
+My personal portfolio. View the [live site](https://kyawzayarsoe.ml)

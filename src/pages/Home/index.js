@@ -137,10 +137,10 @@ const Home = () => {
   return (
     <div className="home">
       <Helmet>
-        <title>Pewrie Bontal | Video Game Developer</title>
+        <title>Kyaw Zayar Soe | Video Game Developer</title>
         <meta
           name="description"
-          content="Portfolio of Pewrie Bontal – a video game developer"
+          content="Portfolio of Kyaw Zayar Soe – a video game developer"
         />
         <link rel="prefetch" href={iphone11} as="fetch" crossorigin="" />
         <link rel="prefetch" href={macbookPro} as="fetch" crossorigin="" />

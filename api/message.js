@@ -20,7 +20,7 @@ const mailTransport = nodemailer.createTransport({
   },
 });
 
-const ORIGIN = 'https://pewriebontal.ml';
+const ORIGIN = 'https://kyawzayarsoe.ml';
 const MAX_EMAIL_LENGTH = 512;
 const MAX_MESSAGE_LENGTH = 4096;
 
@@ -51,8 +51,8 @@ module.exports = async (req, res) => {
 
     // Send email
     const mailOptions = {
-      from: 'Portfolio <mailbot@pewriebontal.ml>',
-      to: 'hello@pewriebontal.ml',
+      from: 'Portfolio <mailbot@kyawzayarsoe.ml>',
+      to: 'fak3win@gmail.com',
       subject: `New message from ${email}`,
       text: `From: ${email}\n\n${message}`,
     };
