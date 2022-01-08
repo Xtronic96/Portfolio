@@ -1,7 +1,16 @@
 The humans.txt file explains the team, technology, and graphic assets behind this site.
 
 
-MAINTAIN BY
+DESIGNED BY 
+
+    Hamish Williams
+    
+    Hand crafted design & web development
+
+    https://hamishw.com
+
+
+MAINTAINER
 
     Pewrie Bontal
 
@@ -16,7 +25,7 @@ TECHNOLOGY
 
 CREDITS
 
-    ORIGINALLY DEVELOPED BY
+    DEVELOPED BY
 
         Hamish Williams
 
@@ -37,7 +46,7 @@ CREDITS
 
 SITE
 
-    Last update: 2021/12/10
+    Last update: 2022/01/08
 
 
 SOFTWARE
@@ -54,6 +63,6 @@ MISC
         https://patorjk.com/software/taag
 
 
-BACK TO ME:
+SOME LINKS:
     
     https://pewriebontal.ml/.well-known/me.txt

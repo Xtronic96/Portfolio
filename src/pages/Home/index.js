@@ -2,7 +2,13 @@ import { useState, useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Intro from './Intro';
-//import ProjectSummary from './ProjectSummary';
+import ProjectSummary from './ProjectSummary';
+import astrorunTexture2Large from 'assets/astrorun-gameplay-large.jpg';
+import astrorunTexture2Placeholder from 'assets/astrorun-gameplay-placeholder.jpg';
+import astrorunTexture2 from 'assets/astrorun-gameplay.jpg';
+import astrorunTextureLarge from 'assets/astrorun-gameover-large.jpg';
+import astrorunTexturePlaceholder from 'assets/astrorun-gameover-placeholder.jpg';
+import astrorunTexture from 'assets/astrorun-gameover.jpg';
 import Profile from './Profile';
 import Footer from 'components/Footer';
 import { usePrefersReducedMotion, useRouteTransition } from 'hooks';
@@ -26,11 +32,12 @@ const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
   const [scrollIndicatorHidden, setScrollIndicatorHidden] = useState(false);
   const intro = useRef();
+  const projectOne = useRef();
   const about = useRef();
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    const revealSections = [intro, about];
+    const revealSections = [intro, projectOne, about];
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -73,7 +80,7 @@ const Home = () => {
 
     const handleHashchange = (hash, scroll) => {
       clearTimeout(scrollTimeout);
-      const hashSections = [intro, about];
+      const hashSections = [intro, projectOne, about];
       const hashString = hash.replace('#', '');
       const element = hashSections.filter(item => item.current.id === hashString)[0];
       if (!element) return;
@@ -144,6 +151,32 @@ const Home = () => {
         sectionRef={intro}
         disciplines={disciplines}
         scrollIndicatorHidden={scrollIndicatorHidden}
+      />
+      <ProjectSummary
+        id="project-1"
+        sectionRef={projectOne}
+        visible={visibleSections.includes(projectOne.current)}
+        index={1}
+        title="Astro Run"
+        description="Surfway Surfers inspired game made with Unity"
+        buttonText="Visit Project"
+        buttonLink="https://pewriebontal.itch.io/astro-run"
+        model={{
+          type: 'phone',
+          alt: 'App login screen',
+          textures: [
+            {
+              src: astrorunTexture,
+              srcSet: `${astrorunTexture} 254w, ${astrorunTextureLarge} 508w`,
+              placeholder: astrorunTexturePlaceholder,
+            },
+            {
+              src: astrorunTexture2,
+              srcSet: `${astrorunTexture2} 254w, ${astrorunTexture2Large} 508w`,
+              placeholder: astrorunTexture2Placeholder,
+            },
+          ],
+        }}
       />
       <Profile
         sectionRef={about}
