@@ -1,7 +1,8 @@
 # www.robotstxt.org/
 
 # Allow crawling of all content
-User-agent: *
+# User-agent: *
 
+# Google mhr por chin yin out ca line ko del lite "Disallow:" ko
 Disallow: /*
 Sitemap: https://kyawzayarsoe.ml/sitemap.xml

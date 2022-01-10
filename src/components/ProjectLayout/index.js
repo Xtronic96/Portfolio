@@ -205,12 +205,13 @@ export const ProjectTextRow = ({
   />
 );
 
-export const ProjectSectionColumns = ({ className, alternate, centered, ...rest }) => (
+export const ProjectSectionColumns = ({ className, centered, ...rest }) => (
   <ProjectSectionContent
-    className={classNames('project__section-columns', {
-      'project__section-columns--alternate': alternate,
-      'project__section-columns--centered': centered,
-    })}
+    className={classNames(
+      'project__section-columns',
+      { 'project__section-columns--centered': centered },
+      className
+    )}
     {...rest}
   />
 );

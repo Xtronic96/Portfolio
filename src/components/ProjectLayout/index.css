@@ -94,7 +94,9 @@
   --image-height: 800px;
 
   position: absolute;
-  inset: 0;
+  top: 0;
+  right: 0;
+  left: 0;
   height: var(--image-height);
   overflow: hidden;
   opacity: 0;
@@ -440,39 +442,4 @@
 
 .project__section-columns--centered {
   align-items: center;
-}
-
-.project__section-columns .project__text-row {
-  padding-right: 10px;
-
-  @media (--mediaTablet) {
-    & {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  }
-}
-
-.project__section-columns--alternate .project__text-row {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.project__section-columns .image {
-  position: relative;
-  top: 5%;
-
-  @media (--mediaTablet) {
-    & {
-      padding: 0 80px;
-      margin-top: 60px;
-    }
-  }
-
-  @media (--mediaMobile) {
-    & {
-      padding: 0 20px;
-      margin-top: 40px;
-    }
-  }
 }

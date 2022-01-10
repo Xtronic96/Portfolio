@@ -33,16 +33,16 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      Hello! My name is Kyaw Zayar Soe and i am a self-claimed amateur interior arch-viz designer.
-      I have also created some funny animation clips using blender.
-      I also made some casual games with unity and none of them were finished.
+      My name is Kyaw Zayar Soe, and I am a self-claimed amateur interior arch-viz designer.
+      I have also created some funny animation clips using Blender.
+      I also made some casual games with Unity and none of them were finished.
     </Text>
     <Text
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      I love games and I have played variety of games since my childhood.
-      I want to learn more about game development industry and want to master the art of game creation and film animation.
+      I love games and I have played a variety of games since my childhood.
+      I want to learn more about the game development industry and want to master the art of game creation and film animation.
     </Text>
   </Fragment>
 );

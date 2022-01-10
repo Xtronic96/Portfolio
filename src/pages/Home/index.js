@@ -3,12 +3,23 @@ import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Intro from './Intro';
 import ProjectSummary from './ProjectSummary';
+
 import astrorunTexture2Large from 'assets/astrorun-gameplay-large.jpg';
 import astrorunTexture2Placeholder from 'assets/astrorun-gameplay-placeholder.jpg';
 import astrorunTexture2 from 'assets/astrorun-gameplay.jpg';
+
 import astrorunTextureLarge from 'assets/astrorun-gameover-large.jpg';
 import astrorunTexturePlaceholder from 'assets/astrorun-gameover-placeholder.jpg';
 import astrorunTexture from 'assets/astrorun-gameover.jpg';
+
+import escapeGameTexture from 'assets/escape-game.jpg';
+import escapeGameTextureLarge from 'assets/escape-game-large.jpg';
+import escapeGameTexturePlaceholder from 'assets/escape-game-placeholder.jpg';
+
+import projectThreeTextureLarge from 'assets/project-three-large.jpg';
+import projectThreeTexturePlaceholder from 'assets/project-three-placeholder.jpg';
+import projectThreeTexture from 'assets/project-three.jpg';
+
 import Profile from './Profile';
 import Footer from 'components/Footer';
 import { usePrefersReducedMotion, useRouteTransition } from 'hooks';
@@ -33,11 +44,14 @@ const Home = () => {
   const [scrollIndicatorHidden, setScrollIndicatorHidden] = useState(false);
   const intro = useRef();
   const projectOne = useRef();
+  const projectTwo = useRef();
+  const projectThree = useRef();
   const about = useRef();
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    const revealSections = [intro, projectOne, about];
+    const revealSections = [intro, projectOne, projectTwo, projectThree, about];
+
 
     const sectionObserver = new IntersectionObserver(
       (entries, observer) => {
@@ -157,13 +171,34 @@ const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
+        title="Escape From ISS"
+        description="Puzzle based escape game made with Unity"
+        buttonText="Prototype"
+        buttonLink=""
+        model={{
+          type: 'laptop',
+          alt: 'Escape from ISS prototype',
+          textures: [
+            {
+              src: escapeGameTexture,
+              srcSet: `${escapeGameTexture} 800w, ${escapeGameTextureLarge} 1440w`,
+              placeholder: escapeGameTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-2"
+        sectionRef={projectTwo}
+        visible={visibleSections.includes(projectTwo.current)}
+        index={2}
         title="Astro Run"
         description="Surfway Surfers inspired game made with Unity"
         buttonText="Visit Project"
         buttonLink="https://pewriebontal.itch.io/astro-run"
         model={{
           type: 'phone',
-          alt: 'App login screen',
+          alt: 'Astro Run',
           textures: [
             {
               src: astrorunTexture,
@@ -174,6 +209,27 @@ const Home = () => {
               src: astrorunTexture2,
               srcSet: `${astrorunTexture2} 254w, ${astrorunTexture2Large} 508w`,
               placeholder: astrorunTexture2Placeholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-3"
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectThree.current)}
+        index={3}
+        title="Project Three"
+        description="Alien Shooter game made with Unity"
+        buttonText="Prototype"
+        buttonLink=""
+        model={{
+          type: 'laptop',
+          alt: 'Project Three',
+          textures: [
+            {
+              src: projectThreeTexture,
+              srcSet: `${projectThreeTexture} 980w, ${projectThreeTextureLarge} 1376w`,
+              placeholder: projectThreeTexturePlaceholder,
             },
           ],
         }}
